@@ -1,0 +1,255 @@
+* {
+    font-family: 'Nunito', sans-serif; /* importa font de letra Poppins como padrão */ 
+}
+
+header{
+    margin: 2rem 6rem;
+    align-items:center;
+    text-align:start;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista_cabeçalho{
+    display: flex;
+    align-items: center;
+}
+
+
+.pesquisa_box{
+    background: rgba(128, 128, 128, 0.137);
+    border:none;
+    border-radius:15px;
+    width: 375px;
+    height: 25px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 1.5rem;
+    align-items: center;
+}
+
+.search_site{
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    padding-right:150px;
+    font-style:italic;
+    font-size:16px;
+    border: none;
+}
+
+.search_site:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.pesquisa_box input::placeholder{
+    color: rgba(0, 0, 0, 0.39);
+}
+
+#botao-lupa{
+    width: 4%;
+    float:right;
+    padding: 5px 10px 5px 5px ;
+}
+
+.login_botao{
+    cursor: pointer;
+    color: #2A7AE4;
+    height: 51px;
+    width: 200px;
+    font-size: 16px;
+    border: solid #2A7AE4 1px;
+    background-color: #FFFF;
+    display: inline-block;
+}
+
+.login_botao:hover{
+    background-color: #2a7be454;
+}
+
+.logo_header{
+    display: inline-block;
+}
+
+main{
+    background-color: #FFFF;
+    margin-bottom: 3rem;
+}
+
+.banner{
+    position:relative;
+}
+.banner_img{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.banner_botao{
+    font-size: 16px;
+    padding: 1rem ;
+    border: none 1px;
+    background-color: #2A7AE4;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+.banner_botao:hover{
+    background-color: #2a7be4ab;
+}
+
+.banner_conteudo{
+    margin-left: 6rem;
+    position:absolute;
+    transform: translateY(-115%);
+}
+.titulo_banner{
+    font-weight: bolder;
+    color: #FFFF;
+    padding-bottom: 3%;
+}
+
+.titulo_principal_banner{
+    font-size: 45px;
+}
+
+.titulo_secundario_banner{
+    font-size: 19px;
+}
+
+.galeria_produtos{
+    margin: 2rem 6rem;
+    background-color: #FFFF;
+}
+
+.box_produtos{
+    margin: 2rem 0;
+}
+.head_produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.titulo_produtos{
+    font-size: 30px;
+    font-weight: bold;
+    color: #464646;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ver_tudo_box{
+    display:flex;
+    align-items: center;
+}
+
+.box_link_style{
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+.ver_tudo_box button {
+    height: 25px;
+    width: 40px;
+    content: center;
+    border: none;
+    background-color: #FFFF;
+}
+
+#botao-seta{
+    width: 20px;
+    height: 20px;
+}
+
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.celula_produto:last-child{
+    margin-right: 0;
+}
+
+footer{
+    background-color: #2a7be41f;
+    font-family: 'Nunito', sans-serif;
+}
+
+.rodapé{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+
+.lista_rodapé{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodapé-li-link{
+    text-decoration: none;
+    color: black;
+}
+.contato_form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.titulo_contato{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.elemento_form{
+    margin-bottom: 1rem;
+    margin-top: 0;
+	text-align: left;
+    padding: 1rem 1rem;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+}
+
+.enviar_mensagem_botao{
+    width: 160px;
+    font-size: 16px;
+    padding: 1rem;
+    border: none 1px;
+    background-color: #2A7AE4;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+.enviar_mensagem_botao:hover{
+    background-color: #2a7be4ab;
+}
+
+.elemento_form:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.elemento_form::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.copyright{
+    font-family: 'Nunito', sans-serif;
+    margin: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.copy_alurageek{
+    margin-bottom: 1rem;
+}
