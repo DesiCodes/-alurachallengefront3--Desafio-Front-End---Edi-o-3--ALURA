@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alura Geek - Página Inicial</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+        </style>
+
+        <link rel="stylesheet" href="reset.css">
+
+        <link rel="stylesheet" href="adicionar_novo_produto.css">
+
+        <script src="https://kit.fontawesome.com/aa17fec8ca.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                <ul class="lista_cabeçalho">
+                    <li><h1 class="logo_header"> <a href="pagina_inicial_alurageek.html"> <img src="/Pagina_inicial_AluraGeek/imagens/Logo_png.png"> </a> </h1></li>
+                    <li>
+                        <div class="pesquisa_box">
+                            <input type="text" class="search_site" placeholder="O que deseja encontrar?">
+                            <a href=""><img src="/Pagina_inicial_AluraGeek/imagens/lupa_pesquisa.png"  id="botao-lupa"></a>
+                        </div>
+                    </li>
+                </ul>
+                
+ 
+                <input type="button"  value="Menu administrador" class="login_botao">
+            </div>
+
+        </header>
+
+        <main>
+            <div class="add_produto">
+                <form action="" class="form_novo_produto">
+                    <div class="conteiner">
+                        <h1 class="titulo_add_produto">Adicionar novo produto</h1>
+                        <div class="box_adicionar_imagem">
+                        
+                            <div class="drag_and_drop_zone">
+                                <i class="fa-solid fa-image"></i>
+                                <p>Arraste para adicionar uma</p>
+                                <p>imagem para o produto</p>
+                                <input type="file" id="selectfile" multiple>
+                            </div>
+                            <p class="paragrafo_ou">Ou</p>
+                            <div class="botao_arquivo_produto">
+                                <label class="" for="inserir_imagem">
+                                    Procure no seu computador 
+                                    <input class="arquivo-input" type="file" id="inserir_imagem">
+                                </label> 
+                            </div>
+                           
+                        </div>
+
+                        <label for="nome_produto" class="placeholder_flutuante">Nome do produto</label>
+                        <input type="text" id="nome_produto" class="elemento_produto_add">
+
+                        <label for="preco_produto" class="placeholder_flutuante">Preço do produto</label>
+                        <input type="text" id="preco_produto" class="elemento_produto_add">
+                        
+                        <textarea name="" id="" cols="30" rows="3" class="descrição_produto" placeholder="Descrição do produto"></textarea>
+
+                        <input type="button"  value="Adicionar produto" class="add_produto_botao"> 
+                    </div>
+                    
+                        
+
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="rodapé">
+                <h1> <a href="pagina_inicial_alurageek.html"> <img src="/Pagina_inicial_AluraGeek/imagens/Logo_png.png"> </a> </h1>
+
+                <ul class="lista_rodapé">
+                    <li>  <a href="#" class="rodapé-li-link">Quem somos nós</a></li>
+                    <li>  <a href="#" class="rodapé-li-link">Política de privacidade</a></li>
+                    <li>  <a href="#" class="rodapé-li-link">Programa fidelidade</a></li>
+                    <li>  <a href="#" class="rodapé-li-link">Nossas lojas</a></li>
+                    <li>  <a href="#" class="rodapé-li-link">Quero ser franqueado </a> </li>
+                    <li>  <a href="#" class="rodapé-li-link">Anuncie aqui</a></li>
+                </ul>
+
+                <form class="contato_form">
+
+                    <p class="titulo_contato">Fale conosco</p>
+                    <input type="text" placeholder="Seu Nome" id="contato" class="elemento_form">
+                    <textarea rows="4" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" class="elemento_form" ></textarea>
+                    <input type="button"  value="Enviar Mensagem" class="enviar_mensagem_botao">
+                    
+                    
+
+                </form>
+            </div>
+            
+        </footer>
+        
+        <div class="copyright">
+
+            <p class="copy_alurageek">&copy; AluraGeek</p>
+            <p> Desenvolvido por Matheus Desiderá Szcypula</p>
+            <p>2022</p>
+
+        </div>
+
+    </body>
+
+</html>
