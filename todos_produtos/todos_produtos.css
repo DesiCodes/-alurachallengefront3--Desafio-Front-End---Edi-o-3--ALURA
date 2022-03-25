@@ -1,0 +1,351 @@
+* {
+    font-family: 'Nunito', sans-serif; /* importa font de letra Poppins como padrão */ 
+}
+
+header{
+    margin: 2rem 6rem;
+    align-items:center;
+    text-align:start;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista_cabeçalho{
+    display: flex;
+    align-items: center;
+}
+
+
+.pesquisa_box{
+    background: rgba(128, 128, 128, 0.137);
+    border:none;
+    border-radius:15px;
+    width: 375px;
+    height: 25px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 1.5rem;
+    align-items: center;
+}
+
+.search_site{
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    width: 320px;
+    font-style:italic;
+    font-size:16px;
+    border: none;
+}
+
+.search_site:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.pesquisa_box input::placeholder{
+    color: rgba(0, 0, 0, 0.39);
+}
+
+#botao-lupa{
+    width: 4%;
+    float:right;
+    padding: 5px 10px 5px 5px ;
+}
+
+.login_botao{
+    cursor: pointer;
+    color: #2A7AE4;
+    height: 51px;
+    width: 200px;
+    font-size: 16px;
+    border: solid #2A7AE4 1px;
+    background-color: #FFFF;
+    display: inline-block;
+}
+
+.login_botao:hover{
+    background-color: #2a7be454;
+}
+
+.logo_header{
+    display: inline-block;
+}
+
+main{
+    padding: 1.5rem 0;
+    background: linear-gradient(rgba(128, 128, 128, 0.103),#FFFF);
+}
+
+.galeria_produtos{
+    margin: 2rem 6rem;
+}
+
+.box_produtos{
+    margin: 2rem 0;
+}
+.head_produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.titulo_produtos{
+    font-size: 30px;
+    font-weight: bold;
+    color: #464646;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box_link_style{
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.celula_produto:last-child{
+    margin-right: 0;
+}
+
+.head_todos_produtos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragrafo_produto{
+    padding: 0.3rem 0;
+}
+
+.preço_pagrafo_produto{
+    font-weight: bold;
+}
+
+.caneca_star_wars{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/star-wars_caneca.png');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.torradeira_star_wars{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/torradeira_star_wars.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.Copo-Termico-Star-Wars{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/Copo-Termico-Star-Wars-450ml.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.baby_yoda_action_figure{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/baby_yoda_action_figure.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.almofadas_star_wars{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/almofadas_star_wars.png');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.pop_funko_rey_star_wars{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/pop_funko_rey_star_wars.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;  
+}
+
+.controle_xbox{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/console.png');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.game_boy_color{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/game_boy_color.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.ps5{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/ps5.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative; 
+}
+
+.xbox_series_x{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/xbox_series_x.png');
+    width: 176px;
+    height: 174px;
+    position: relative; 
+}
+
+.nintendo-switch{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/nintendo-switch.png');
+    width: 176px;
+    height: 174px;
+    position: relative; 
+}
+
+.mega_drive{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/mega_drive.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;  
+}
+
+.camiseta_atari{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/camiseta_atari.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;    
+}
+
+.camiseta-game-boy-retro{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/camiseta-game-boy-retro.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative; 
+}
+
+.charizard_pelucia{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/charizard_pelucia.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.sonic{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/sonic.png');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.Playstation_vr{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/Playstation_vr.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.kit-imas-game-of-thrones{
+    background-image: url('/Pagina_inicial_AluraGeek/imagens/kit-imas-game-of-thrones.jpg');
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+
+.fa-pen, .fa-trash{
+    color: #2A7AE4;
+}
+
+.fa-trash{
+    margin-right: 1rem;
+}
+.box-icones{
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+}
+
+footer{
+    background-color: #2a7be41f;
+    font-family: 'Nunito', sans-serif;
+}
+
+.rodapé{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+
+.lista_rodapé{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodapé-li-link{
+    text-decoration: none;
+    color: black;
+}
+.contato_form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.titulo_contato{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.elemento_form{
+    margin-bottom: 1rem;
+    margin-top: 0;
+	text-align: left;
+    padding: 1rem 1rem;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: #4646466b;
+}
+
+.enviar_mensagem_botao{
+    width: 160px;
+    font-size: 16px;
+    padding: 1rem;
+    border: none 1px;
+    background-color: #2A7AE4;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+.enviar_mensagem_botao:hover{
+    background-color: #2a7be4ab;
+}
+
+.elemento_form:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.elemento_form::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.copyright{
+    font-family: 'Nunito', sans-serif;
+    margin: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.copy_alurageek{
+    margin-bottom: 1rem;
+}
